@@ -43,6 +43,15 @@ h2 a{
 }
 
 
+.entry-content h2{
+    color: #5b9bd5 !important;
+    font-size: 26px !important;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif !important;
+    text-transform: none !important;
+    margin-top: 0 !important;
+}
+
 h3{
     color: #5b9bd5 !important;
     font-size: 26px;
@@ -50,6 +59,15 @@ h3{
     font-family: 'Quicksand', sans-serif !important;
     text-transform: none !important;
 }
+
+.entry-content h3{
+    color: #5b9bd5 !important;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif !important;
+    text-transform: none !important;
+}
+
 
 h4{
     color: #5b9bd5 !important;
@@ -86,6 +104,21 @@ image entete
  */
 .post-thumbnail img{
     width: 100%;
+}
+
+
+/* tests marges */
+
+.hentry{
+    padding-top: 0 !important;
+}
+
+.entry-title{
+    padding-top: 65px;
+}
+
+.post-thumbnail{
+    margin-bottom: 0 !important;
 }
 
 
@@ -160,6 +193,8 @@ vérifier pourquoi-------------------
 cadre evenement----------------------
 */
 
+/*content page
+
 .cat-post-widget{
     
     background-color: #f1f1f1 !important;
@@ -205,6 +240,58 @@ cadre evenement----------------------
     color: #f24ea8 !important;
 }
 
+*/
+
+/* dans barre latérale */
+
+.cat-post-widget{
+    
+    background-color: #f1f1f1 !important;
+    width: 76%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0 !important;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px !important;
+     -moz-box-shadow: 4px 4px 10px #888;
+    -webkit-box-shadow: 4px 4px 10px #888;
+    box-shadow:4px 4px 6px #888;
+}
+
+.cat-post-title{
+    color: #5b9bd5 !important;
+    font-size: 16px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 5px !important;
+}
+
+.cat-post-title:hover{
+    color: #918ec3 !important;
+}
+
+
+
+
+.cat-post-widget h2{
+    color: #f24ea8 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.category-posts-internal{
+    margin-bottom: 0 !important;
+}
+
+.cat-post-excerpt-more{
+    color: #f24ea8 !important;
+}
+
+
 /*
 liens
 */
@@ -235,22 +322,22 @@ menu
 */
 
 .site-header{
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .custom-logo{
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .menu-item{
-    line-height: 1;
+    line-height: 0.9;
 }
 
 
 .main-navigation{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .main-navigation a{
@@ -630,6 +717,8 @@ iframe{
 
 
 
+
+
 /* Diminution des marges à partir de la tablette */
 @media screen and (max-width: 1024px){
 .entry-content{
@@ -712,8 +801,40 @@ iframe{
 }
 input[type="search"]{
     margin-left: 20px;
-    margin-top: 0;
+    margin-top: 10px;
     margin-right: auto;
-    width: 85%;
+    width: 80%;
 }
 
+@media screen and (min-width: 1300px){
+    .site-header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.custom-logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.menu-item{
+    line-height: 1.2;
+}
+
+
+.main-navigation{
+    margin-bottom: 5px;
+}
+    
+.cat-post-widget{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+}
+
+@media screen and (max-width: 954px){
+    .site-header{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}

@@ -22,7 +22,7 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-            <p>© 2017 Solution Riposte Bretagne | <a href="https://solutionripostebretagne.bzh/wp-admin/">Connexion admin</a> | <a href="https://www.solutionripostebretagne.bzh/mentions-legales/ ">Mentions légales</a> | <a href="https://www.facebook.com/ripostebretagne/ " target="_blank">Facebook</a> | Création : B. GUIRIEC</p>
+            <p>© 2017 Solution Riposte Bretagne | <a href="https://solutionripostebretagne.bzh/wp-admin/">Connexion admin</a> | <a href="https://www.solutionripostebretagne.bzh/mentions-legales/ ">Mentions légales</a> | Création : B. GUIRIEC</p>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
